@@ -1,0 +1,144 @@
+<div class="f_box">
+                <div class="veggie">
+                    <h2>Warm beef arugula salad 16,90€</h2>
+                    <p>Beef, Arugula, Field salad, Greek feta, Cherry tomatoes, Sun-dried Tomatoes, Balsamic vinegar dressing</p>
+                    <div class="added_button">
+                        <button class="button_added_1">Added 1</button>
+                    </div>
+                </div>
+            </div>
+
+                        <p>The best Burgers, Pizza and Greens, all in one great place.</p>
+        </div>
+        <div class="orangebox">
+            <h2 class="burger_class">Burger & Sandwitches</h2>
+        </div>
+        <div class="f_box">
+            <div class="veggie">
+                <h2>Veggie mushroom black burger 16,90€</h2>
+                <p>Mixed green salad, Tomatoes, Edamame, Mushrooms</p>
+                <div class="added_button">
+                    <button class="button_added_1">Added 1</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="f_box">
+                <div class="veggie">
+                    <h2>All meat burger 15,90€</h2>
+                    <p>Beef, Bacon, Dill pickles, Smoked cheese, Ketchup, BBQ souse</p>
+                    <div class="added_button">
+                        <button class="button_added_2">Add to basket</button>
+                    </div>
+                </div>
+            </div>
+            <div class="f_box">
+                <div class="veggie">
+                    <h2>Beef red burger 14,90€</h2>
+                    <p>Beef, Cheese, Tomatoes, Lettuce, Onion</p>
+                    <div class="added_button">
+                        <button class="button_added_2">Add to basket</button>
+                    </div>
+                </div>
+            </div>
+            <div class="f_box">
+                <div class="veggie">
+                    <h2>Blg chicken burger 15,90€</h2>
+                    <p>Chicken, Cheese, Tomatoes, Lettuce, Onion, Bell pepper,</p>
+                    <div class="added_button">
+                        <button class="button_added_2">Add to basket</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="orangebox">
+            <h2 class="burger_class">Pizza (30cm)</h2>
+        </div>
+            <div class="f_box">
+                <div class="veggie">
+                    <h2>Pizza Margherita 11,90€</h2>
+                    <p>Tomato Souce, Mozzarella</p>
+                    <div class="added_button">
+                        <button class="button_added_1">Added 1</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="f_box">
+                    <div class="veggie">
+                        <h2>Pizza Chorizo  13,90€</h2>
+                        <p>Tomato slices, Mozzarella, Chorizo</p>
+                        <div class="added_button">
+                            <button class="button_added_2">Add to basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="f_box">
+                    <div class="veggie">
+                        <h2>Funghi 12,90€</h2>
+                        <p>Red onion, Olives, Button Mushrooms, Mozzarella</p>
+                        <div class="added_button">
+                            <button class="button_added_2">Add to basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="f_box">
+                    <div class="veggie">
+                        <h2>Quattro Formaggi with Chicken 15,90€</h2>
+                        <p>Chicken, Mozzarella, Gorgonzola, Fontina, Parmigiano Reggiano</p>
+                        <div class="added_button">
+                            <button class="button_added_2">Add to basket</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="orangebox">
+            <h2 class="burger_class">Salad</h2>
+        </div>
+            <div>
+                <div class="f_box">
+                    <div class="veggie">
+                        <h2>Warm beef arugula salad 16,90€</h2>
+                        <p>Beef, Arugula, Field salad, Greek feta, Cherry tomatoes, Sun-dried Tomatoes, Balsamic vinegar dressing</p>
+                        <div class="added_button">
+                            <button class="button_added_2">Add to basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="f_box">
+                    <div class="veggie">
+                        <h2>Mini green Salad 7,90€</h2>
+                        <p>Green salad, Cucumber, Carrots, Parsley Radishes</p>
+                        <div class="added_button">
+                            <button class="button_added_1">Added 1</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="f_box">
+                    <div class="veggie">
+                        <h2>Green Salad with sea food 16,90€</h2>
+                        <p>Mixed greens, Cherry tomatoes, Red onion, Mussels, Squid rings, Shrimp, Dijon mustard lemon dressing with dill</p>
+                        <div class="added_button">
+                            <button class="button_added_2">Add to basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="f_box">
+                    <div class="veggie">
+                        <h2>Vegan green salad with tofu 14,90€</h2>
+                        <p>Green salad, Cherry tomatoes, Cucumber, Baby spinach, Edamame, Radishes, Bittercress, Tofu, Peanuts</p>
+                        <div class="added_button">
+                            <button class="button_added_2">Add to basket</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <footer class="footer_orange_box">
+                <div class="flex_box_8">
+                    
+                    <p>C 2025 BurgerHouse</p>
+                    <a class="nav_items" href="">Imprint</a>
+                    <a class="nav_items" href="">Cookie Preferences</a>
+                    </div>
+                </div>
+            </footer>

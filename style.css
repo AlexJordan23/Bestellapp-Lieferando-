@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+
+.orangebox{
+    background-color: #E76C1F;
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 38px;
+    padding-left: 119px;
+    padding-right: 100px;
+
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.picture{
+    width: 92.56px;
+    height: 38px;
+}
+
+.stripes{
+    width: 60px;
+    height: 60px;
+}
+
+.pizza_picture{
+    width: 1440px;
+    height: 508px;
+    padding-top: 59px;
+}
+
+.flex_div{
+    display: flex;
+    justify-content: center;
+}
+
+.flex_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    gap: 25px;
+}
+
+.p_color{
+    background-color: #FACAAC;
+}
+
+.block_box{
+    display: flex;
+    justify-content: center;
+}
+
+.burger_class{
+    color: white;
+}
+
+.item_card{
+    background-color: #FDEADC;
+    border-radius: 12px;
+    display: flex;
+    justify-content: end;
+}
+
+.veggie{
+    display: block;
+}
+
+.added_button{
+    display: flex;
+    justify-content: end;
+}
+
+.button_added_1{
+    color: orange;
+    border-radius: 25px;
+}
+
+.button_added_2{
+    border-radius: 25px;
+}
+
+.footer_orange_box{
+    background-color: #E76C1F;
+}
+
+.flex_box_8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav_items{
+    color: black;
+    text-decoration: none;
+}
