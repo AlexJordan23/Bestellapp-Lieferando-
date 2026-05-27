@@ -76,7 +76,15 @@ let items = [
         "Gericht": "Mini green Salad",
         "Zudaten": "Green salad, Cucumber, Carrots, Parsley, Radishes",
         "Preis": "7,90€",
-        "Bild": "arugulasalad.png",
+        "Bild": "minisalad.png",
+    },
+
+    {
+        "Kategorie": "Salad",
+        "Gericht": "Green Salad with sea food",
+        "Zudaten": "Mixed greens, Cherry tomatoes, Red onion, Mussels, Squid rings, Shrimp, Dijon mustard-lemon dressing with dill",
+        "Preis": "16,90€",
+        "Bild": ".png",
     },
 ]
 
