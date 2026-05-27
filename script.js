@@ -84,7 +84,7 @@ let items = [
         "Gericht": "Green Salad with sea food",
         "Zudaten": "Mixed greens, Cherry tomatoes, Red onion, Mussels, Squid rings, Shrimp, Dijon mustard-lemon dressing with dill",
         "Preis": "16,90€",
-        "Bild": ".png",
+        "Bild": "seafoodsalad.png",
     },
 
     {
@@ -92,7 +92,7 @@ let items = [
         "Gericht": "Vegan green salad with tofu",
         "Zudaten": "Green salad, Cherry tomatoes, Cucumber, Baby spinach, Edamame, Radishes, Bittercress, Tofu, Peanuts",
         "Preis": "14,90€",
-        "Bild": "seagreenfoodsalad.png",
+        "Bild": "vegansalad.png",
     },
 ]
 
