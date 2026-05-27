@@ -86,6 +86,14 @@ let items = [
         "Preis": "16,90€",
         "Bild": ".png",
     },
+
+    {
+        "Kategorie": "Salad",
+        "Gericht": "Vegan green salad with tofu",
+        "Zudaten": "Green salad, Cherry tomatoes, Cucumber, Baby spinach, Edamame, Radishes, Bittercress, Tofu, Peanuts",
+        "Preis": "14,90€",
+        "Bild": "seagreenfoodsalad.png",
+    },
 ]
 
 function getItemTemplate(indexItem){
