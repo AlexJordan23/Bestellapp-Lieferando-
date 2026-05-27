@@ -60,6 +60,14 @@ let items = [
         "Gericht": "Quattro Formaggi with Chicken",
         "Zudaten": "Chicken, Mozzeralla, Gorganzola, Fontina, Parmigiano Reggiano",
         "Preis": "15,90€",
+        "Bild": "quattro.png",
+    },
+
+    {
+        "Kategorie": "Salad",
+        "Gericht": "Warm beef arugula salad",
+        "Zudaten": "Beef, Arugula, Field salad, Greek feta, Cherry tomatoes, Sun-dried Tomatoes, Balsamic-vinegar dressing",
+        "Preis": "16,90€",
         "Bild": ".png",
     },
 ]
