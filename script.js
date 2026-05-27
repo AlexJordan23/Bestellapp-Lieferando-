@@ -68,7 +68,15 @@ let items = [
         "Gericht": "Warm beef arugula salad",
         "Zudaten": "Beef, Arugula, Field salad, Greek feta, Cherry tomatoes, Sun-dried Tomatoes, Balsamic-vinegar dressing",
         "Preis": "16,90€",
-        "Bild": ".png",
+        "Bild": "arugulasalad.png",
+    },
+
+    {
+        "Kategorie": "Salad",
+        "Gericht": "Mini green Salad",
+        "Zudaten": "Green salad, Cucumber, Carrots, Parsley, Radishes",
+        "Preis": "7,90€",
+        "Bild": "arugulasalad.png",
     },
 ]
 
