@@ -28,6 +28,22 @@ let items = [
         "Gericht": "Blg chicken burger",
         "Zudaten": "Chicken, Cheese, Tomatoes, Lettuce, Onion, Bell pepper",
         "Preis": "15,90€",
+        "Bild": "chickenburger.png",
+    },
+
+    {
+        "Kategorie": "Pizza",
+        "Gericht": "Pizza Margherita",
+        "Zudaten": "Tomato Sauce, Mozzarella",
+        "Preis": "11,90€",
+        "Bild": "pizzamar.png",
+    },
+
+    {
+        "Kategorie": "Pizza",
+        "Gericht": "Pizza Chorizo",
+        "Zudaten": "Tomato slices, Mozzerella, Chorizo",
+        "Preis": "11,90€",
         "Bild": "",
     },
     
