@@ -8,24 +8,30 @@ let items = [
     },
 
     {
-        "Kategorie": "Pizza",
-        "Gericht": "Pizza Margherita",
-        "Zutaten": "Tomato Sauce, Mozzarella",
-        "Preis": "11,90€",
-        "Bild": "pizzamarg.png"
+        "Kategorie": "Burger",
+        "Gericht": "All meat burger",
+        "Zudaten": "Beef, Bacon, Dill pickles, Smoked cheese, Ketchup, BBQ souce",
+        "Preis": "15,90€",
+        "Bild": "burger.png",
     },
+
     {
-        "Kategorie" : "Salad",
-        "Gericht" : "Warm beef arugula salad",
-        "Zutaten" : "Beef, Arugula, Field salad, Greek feta, Cherry tomatoes, Sun-dried Tomatoes, Balsamic vinegar dressing",
-        "Preis" : "16,90€",
+        "Kategorie": "Burger",
+        "Gericht": "Beef red Burger",
+        "Zudaten": "Beef, Cheese, Tomatoes, Lettuce, Onion",
+        "Preis": "14,90€",
+        "Bild": "burger.png",
     },
+
     {
-        "Kategorie" : "Salad",
-        "Gericht" : "Warm beef arugula salad",
-        "Zutaten" : "Beef, Arugula, Field salad, Greek feta, Cherry tomatoes, Sun-dried Tomatoes, Balsamic vinegar dressing",
-        "Preis" : "16,90€",
-    }
+        "Kategorie": "Burger",
+        "Gericht": "All meat burger",
+        "Zudaten": "Beef, Bacon, Dill pickles, Smoked cheese, Ketchup, BBQ souce",
+        "Preis": "15,90€",
+        "Bild": "burger.png",
+    },
+    
+    
 ]
 
 function getItemTemplate(indexItem){

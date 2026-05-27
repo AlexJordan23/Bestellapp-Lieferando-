@@ -141,4 +141,24 @@
                     <a class="nav_items" href="">Cookie Preferences</a>
                     </div>
                 </div>
+                {
+        "Kategorie" : "Salad",
+        "Gericht" : "Warm beef arugula salad",
+        "Zutaten" : "Beef, Arugula, Field salad, Greek feta, Cherry tomatoes, Sun-dried Tomatoes, Balsamic vinegar dressing",
+        "Preis" : "16,90€",
+        {
+        "Kategorie": "Pizza",
+        "Gericht": "Pizza Margherita",
+        "Zutaten": "Tomato Sauce, Mozzarella",
+        "Preis": "11,90€",
+        "Bild": "pizzamar.png"
+    },
+    {
+        "Kategorie" : "Salad",
+        "Gericht" : "Warm beef arugula salad",
+        "Zutaten" : "Beef, Arugula, Field salad, Greek feta, Cherry tomatoes, Sun-dried Tomatoes, Balsamic vinegar dressing",
+        "Preis" : "16,90€",
+        "Bild": "salad.png"
+    },
+    }
             </footer>
