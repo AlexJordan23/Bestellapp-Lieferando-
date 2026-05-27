@@ -26,9 +26,11 @@ let items = [
 ]
 
 function getItemTemplate(indexItem){
-
     return `
+
         <div class="item-card">
+
+            <img class="burger-img" src="blackburger.png">
 
             <div class="item-info">
                 <h2>${items[indexItem].Gericht}</h2>

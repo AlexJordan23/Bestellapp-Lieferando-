@@ -58,21 +58,23 @@ body{
 }
 
 .item-card{
-    background: #F6EADC;
-
-    border-radius: 24px;
-
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 
-    padding: 24px 32px;
+    background-color: #F3E7DC;
+
+    border-radius: 20px;
+
+    padding: 24px;
 
     margin-bottom: 24px;
+
+    gap: 24px;
 }
 
 .item-info{
-    max-width: 700px;
+    flex: 1;
 }
 
 .item-info h2{
@@ -119,4 +121,14 @@ body{
 .nav_items{
     color: black;
     text-decoration: none;
+}
+
+
+.burger-img{
+    width: 180px;
+    height: 120px;
+
+    object-fit: cover;
+
+    border-radius: 18px;
 }
