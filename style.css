@@ -57,17 +57,40 @@ body{
     color: white;
 }
 
-.item_card{
-    background-color: #FDEADC;
-    border-radius: 12px;
+.item-card{
+    background: #F6EADC;
+
+    border-radius: 24px;
+
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 24px 32px;
+
+    margin-bottom: 24px;
 }
 
-.veggie{
-    display: block;
+.item-info{
+    max-width: 700px;
 }
 
+.item-info h2{
+    font-size: 42px;
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+.item-info p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.price{
+    font-size: 42px;
+    font-weight: 700;
+}
 .added_button{
     display: flex;
     justify-content: end;

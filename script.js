@@ -26,16 +26,22 @@ let items = [
 ]
 
 function getItemTemplate(indexItem){
-    return `
-    <div class="item_card">
-        <h2>${items[indexItem].Gericht}</h2>
-    </div>
 
-    <div class="price">
-        <p class="price">${items[indexItem].Preis}</p>
-        <p class="price"></p>
-    </div>         
-    `
+    return `
+        <div class="item-card">
+
+            <div class="item-info">
+                <h2>${items[indexItem].Gericht}</h2>
+
+                <p>${items[indexItem].Zutaten}</p>
+            </div>
+
+            <span class="price">
+                ${items[indexItem].Preis}
+            </span>
+
+        </div>
+    `;
 }
 
 function renderItem() {
