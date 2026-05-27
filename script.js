@@ -43,7 +43,15 @@ let items = [
         "Kategorie": "Pizza",
         "Gericht": "Pizza Chorizo",
         "Zudaten": "Tomato slices, Mozzerella, Chorizo",
-        "Preis": "11,90€",
+        "Preis": "13,90€",
+        "Bild": "chorizo.png",
+    },
+
+    {
+        "Kategorie": "Pizza",
+        "Gericht": "Funghi",
+        "Zudaten": "Red onion, Olives, Button Mushrooms",
+        "Preis": "12,90€",
         "Bild": "",
     },
     
