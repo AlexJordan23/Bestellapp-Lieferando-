@@ -52,10 +52,16 @@ let items = [
         "Gericht": "Funghi",
         "Zudaten": "Red onion, Olives, Button Mushrooms",
         "Preis": "12,90€",
-        "Bild": "",
+        "Bild": "funghi.png",
     },
     
-    
+    {
+        "Kategorie": "Pizza",
+        "Gericht": "Quattro Formaggi with Chicken",
+        "Zudaten": "Chicken, Mozzeralla, Gorganzola, Fontina, Parmigiano Reggiano",
+        "Preis": "15,90€",
+        "Bild": ".png",
+    },
 ]
 
 function getItemTemplate(indexItem){
