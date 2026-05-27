@@ -1,15 +1,18 @@
 let items = [
     {
-        "Kategorie" : "Burger & Sandwitches",
-        "Gericht" : "Veggie mushroom black burger",
-        "Zutaten" : "Mixed green salad, Tomatoes, Edamame, Mushrooms",
-        "Preis" : "16,90€",
+        "Kategorie": "Burger",
+        "Gericht": "Veggie mushroom black burger",
+        "Zutaten": "Mixed green salad, Tomatoes, Edamame, Mushrooms",
+        "Preis": "16,90€",
+        "Bild": "blackburger.png"
     },
+
     {
-        "Kategorie" : "Pizza",
-        "Gericht" : "Pizza Margherita",
-        "Zutaten" : "Tomato Souce, Mozzarella",
-        "Preis" : "11,90€",
+        "Kategorie": "Pizza",
+        "Gericht": "Pizza Margherita",
+        "Zutaten": "Tomato Sauce, Mozzarella",
+        "Preis": "11,90€",
+        "Bild": "pizzamarg.png"
     },
     {
         "Kategorie" : "Salad",
@@ -27,10 +30,11 @@ let items = [
 
 function getItemTemplate(indexItem){
     return `
-
         <div class="item-card">
 
-            <img class="burger-img" src="blackburger.png">
+            ${items[indexItem].Bild ? 
+            `<img class="burger-img" src="${items[indexItem].Bild}">`
+            : ""}
 
             <div class="item-info">
                 <h2>${items[indexItem].Gericht}</h2>
@@ -45,6 +49,8 @@ function getItemTemplate(indexItem){
         </div>
     `;
 }
+
+
 
 function renderItem() {
   let contentRef = document.getElementById('content');
