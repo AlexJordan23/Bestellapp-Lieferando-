@@ -10,7 +10,7 @@ let items = [
     {
         "Kategorie": "Burger",
         "Gericht": "All meat burger",
-        "Zudaten": "Beef, Bacon, Dill pickles, Smoked cheese, Ketchup, BBQ souce",
+        "Zutaten": "Beef, Bacon, Dill pickles, Smoked cheese, Ketchup, BBQ souce",
         "Preis": "15,90€",
         "Bild": "burger.png",
     },
@@ -18,7 +18,7 @@ let items = [
     {
         "Kategorie": "Burger",
         "Gericht": "Beef red Burger",
-        "Zudaten": "Beef, Cheese, Tomatoes, Lettuce, Onion",
+        "Zutaten": "Beef, Cheese, Tomatoes, Lettuce, Onion",
         "Preis": "14,90€",
         "Bild": "redburger.png",
     },
@@ -26,7 +26,7 @@ let items = [
     {
         "Kategorie": "Burger",
         "Gericht": "Blg chicken burger",
-        "Zudaten": "Chicken, Cheese, Tomatoes, Lettuce, Onion, Bell pepper",
+        "Zutaten": "Chicken, Cheese, Tomatoes, Lettuce, Onion, Bell pepper",
         "Preis": "15,90€",
         "Bild": "chickenburger.png",
     },
@@ -34,7 +34,7 @@ let items = [
     {
         "Kategorie": "Pizza",
         "Gericht": "Pizza Margherita",
-        "Zudaten": "Tomato Sauce, Mozzarella",
+        "Zutaten": "Tomato Sauce, Mozzarella",
         "Preis": "11,90€",
         "Bild": "pizzamar.png",
     },
@@ -42,7 +42,7 @@ let items = [
     {
         "Kategorie": "Pizza",
         "Gericht": "Pizza Chorizo",
-        "Zudaten": "Tomato slices, Mozzerella, Chorizo",
+        "Zutaten": "Tomato slices, Mozzerella, Chorizo",
         "Preis": "13,90€",
         "Bild": "chorizo.png",
     },
@@ -50,7 +50,7 @@ let items = [
     {
         "Kategorie": "Pizza",
         "Gericht": "Funghi",
-        "Zudaten": "Red onion, Olives, Button Mushrooms",
+        "Zutaten": "Red onion, Olives, Button Mushrooms",
         "Preis": "12,90€",
         "Bild": "funghi.png",
     },
@@ -58,7 +58,7 @@ let items = [
     {
         "Kategorie": "Pizza",
         "Gericht": "Quattro Formaggi with Chicken",
-        "Zudaten": "Chicken, Mozzeralla, Gorganzola, Fontina, Parmigiano Reggiano",
+        "Zutaten": "Chicken, Mozzeralla, Gorganzola, Fontina, Parmigiano Reggiano",
         "Preis": "15,90€",
         "Bild": "quattro.png",
     },
@@ -66,7 +66,7 @@ let items = [
     {
         "Kategorie": "Salad",
         "Gericht": "Warm beef arugula salad",
-        "Zudaten": "Beef, Arugula, Field salad, Greek feta, Cherry tomatoes, Sun-dried Tomatoes, Balsamic-vinegar dressing",
+        "Zutaten": "Beef, Arugula, Field salad, Greek feta, Cherry tomatoes, Sun-dried Tomatoes, Balsamic-vinegar dressing",
         "Preis": "16,90€",
         "Bild": "arugulasalad.png",
     },
@@ -74,7 +74,7 @@ let items = [
     {
         "Kategorie": "Salad",
         "Gericht": "Mini green Salad",
-        "Zudaten": "Green salad, Cucumber, Carrots, Parsley, Radishes",
+        "Zutaten": "Green salad, Cucumber, Carrots, Parsley, Radishes",
         "Preis": "7,90€",
         "Bild": "minisalad.png",
     },
@@ -82,7 +82,7 @@ let items = [
     {
         "Kategorie": "Salad",
         "Gericht": "Green Salad with sea food",
-        "Zudaten": "Mixed greens, Cherry tomatoes, Red onion, Mussels, Squid rings, Shrimp, Dijon mustard-lemon dressing with dill",
+        "Zutaten": "Mixed greens, Cherry tomatoes, Red onion, Mussels, Squid rings, Shrimp, Dijon mustard-lemon dressing with dill",
         "Preis": "16,90€",
         "Bild": "seafoodsalad.png",
     },
@@ -90,7 +90,7 @@ let items = [
     {
         "Kategorie": "Salad",
         "Gericht": "Vegan green salad with tofu",
-        "Zudaten": "Green salad, Cherry tomatoes, Cucumber, Baby spinach, Edamame, Radishes, Bittercress, Tofu, Peanuts",
+        "Zutaten": "Green salad, Cherry tomatoes, Cucumber, Baby spinach, Edamame, Radishes, Bittercress, Tofu, Peanuts",
         "Preis": "14,90€",
         "Bild": "vegansalad.png",
     },
@@ -122,10 +122,11 @@ function getItemTemplate(indexItem){
 
 function renderItem() {
   let contentRef = document.getElementById('content');
-  contentRef.innerHTML = "";
+  contentRef.innerHTML += "";
 
   for (let indexItem = 0; indexItem < items.length; indexItem++) {
     contentRef.innerHTML += getItemTemplate(indexItem);
     
   }
 }
+
