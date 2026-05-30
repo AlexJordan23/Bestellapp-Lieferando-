@@ -121,12 +121,24 @@ function getItemTemplate(indexItem){
 
 
 function renderItem() {
-  let contentRef = document.getElementById('content');
-  contentRef.innerHTML += "";
-
+    let burgerbox = document.getElementById('burger_box')
+    burgerbox.innerHTML = "";
+    let pizzabox = document.getElementById('pizza_box')
+    pizzabox.innerHTML = "";
+    let saladbox = document.getElementById('salad_box')
+    saladbox.innerHTML = "";
   for (let indexItem = 0; indexItem < items.length; indexItem++) {
-    contentRef.innerHTML += getItemTemplate(indexItem);
-    
+    if(items[indexItem].Kategorie === "Pizza"){
+        pizzabox.innerHTML += getItemTemplate(indexItem);
+    }
+    else if(items[indexItem].Kategorie === "Burger"){
+        burgerbox.innerHTML += getItemTemplate(indexItem);
+    }
+    else if(items[indexItem].Kategorie === "Salad"){
+        saladbox.innerHTML += getItemTemplate(indexItem);
+  }      
   }
+  
+
 }
 
